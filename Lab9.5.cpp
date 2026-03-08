@@ -1,6 +1,5 @@
 #include <stdio.h>
 #define NMAX 10
-
 void inputArray(int array[],int N);
 void showArray2D(int matrix[][10],int N);
 void constructMatrix(int P[][10],int N,int A[], int B[]);
@@ -19,7 +18,7 @@ int main() {
    return 0;
 }
 
-void inputArray(int array[], int N){
+void inputArray(int array[],int N){
 	int temp;
 	for(int i=0;i<N;i++){
 		scanf("%d", &temp);
@@ -35,7 +34,7 @@ void constructMatrix(int P[][10],int N,int A[],int B[]){
 	}
 }
 
-void showArray2D(int matrix[][10], int N){
+void showArray2D(int matrix[][10],int N){
 	for(int i=0;i<N;i++){
 		for(int j=0;j<N;j++){
 		printf("%d ",matrix[i][j]);
