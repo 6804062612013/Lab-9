@@ -2,7 +2,7 @@
 #include <string.h>
 int checkLogin(char *login, char *passwd);
 int checkValidPass(char *ps);
-
+ 
 int main() {
 	char login[64],password[64];
 	printf("Enter login : "); gets(login);
