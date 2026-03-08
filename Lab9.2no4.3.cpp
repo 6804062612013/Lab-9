@@ -13,7 +13,6 @@ int main() {
 		printf("Incorrect login or password\n");
 	}
 	if (checkValidPass(password)) {
-		//if Password is valid
 		printf("Accepted\n");
 	}
 	else{
